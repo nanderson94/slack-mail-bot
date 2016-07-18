@@ -1,0 +1,22 @@
+{
+  "name": "slack-mailer",
+  "version": "1.0.0",
+  "description": "Posts unread emails to a Slack channel",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.gmu.edu/nander13/slack-mailer.git"
+  },
+  "keywords": [
+    "slack"
+  ],
+  "author": "Nicholas Anderson",
+  "license": "MIT",
+  "dependencies": {
+    "mail-listener2": "^0.1.8",
+    "request": "^2.69.0"
+  }
+}
