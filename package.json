@@ -17,6 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "mail-listener2": "^0.1.8",
-    "request": "^2.69.0"
+    "request": "^2.69.0",
+    "slackify-html": "^1.0.1"
   }
 }
