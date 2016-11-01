@@ -1,0 +1,36 @@
+module.exports = {
+  slack: {
+    webhook: "https://hooks.slack.com/services/xxxxxxxxx/xxxxxxxxx/xxxxxxxxxxxxxxxxxxxxxxxx",
+    channel: "email",
+    username: "Mail",
+    emoji: ":love_letter:",
+    color: "#2ab27b",
+    link: "https://mso365.gmu.edu",
+    alertsChannel: "general",
+    alertsUser: "Mason Alert",
+    alertsEmoji: ":warning:",
+    alertsColor: "danger",
+    alertsLink: "https://ready.gmu.edu/category/advisories/"
+  },
+  mail: {
+    username: "spam@gmu.edu",
+    password: "xxxxxxxx",
+    host: "outlook.office365.com",
+    port: 993,
+    tls: true,
+    tlsOptions: { rejectUnauthorized: false },
+
+    // mailbox to monitor
+    mailbox: "inbox",
+    
+    // the search filter being used after an IDLE notification has been retrieved
+    // searchFilter: ["UNSEEN", "FLAGGED"],
+    
+    // all fetched email willbe marked as seen and not fetched next time
+    markSeen: true,
+    
+    // use it only if you want to get all unread email on lib start. Default is `false`
+    fetchUnreadOnStart: true,
+  }
+}
+
